@@ -1,12 +1,15 @@
 {
   "name": "taro-safe-area",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Taro SafeArea 安全区",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["taro-safe-area", "safe-area"],
+  "keywords": [
+    "taro-safe-area",
+    "safe-area"
+  ],
   "author": "cat-kun",
   "license": "ISC",
   "dependencies": {

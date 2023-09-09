@@ -17,10 +17,14 @@
 npm i taro-safe-area -D
 ```
 
+or
+
 ```ssh
 # pnpm
 pnpm i taro-safe-area -D
 ```
+
+or
 
 ```ssh
 # yarn

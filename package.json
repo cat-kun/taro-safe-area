@@ -22,5 +22,5 @@
     "type": "git",
     "url": "https://github.com/cat-kun/taro-safe-area"
   },
-  "types": ["src/SafeArea/SafeArea.d.ts"],
+  "types": ["src/SafeArea/SafeArea.d.ts"]
 }

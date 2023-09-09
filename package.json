@@ -1,0 +1,17 @@
+{
+  "name": "taro-safe-area",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["taro-safe-area", "safe-area"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tarojs/components": "^3.6.16",
+    "@tarojs/react": "^3.6.16",
+    "react": "^18.2.0"
+  }
+}

@@ -1,1 +1,1 @@
-export { default as SafeArea } from './lib/safe-area';
+export { default as SafeArea } from './lib/safe-area/safe-area';

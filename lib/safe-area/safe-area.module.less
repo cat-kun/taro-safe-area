@@ -1,8 +1,15 @@
 .safe-area {
   display: block;
   width: 100%;
+}
+.safe-area-bottom {
   // height: calc(96rpx+ constant(safe-area-inset-bottom)); ///*兼容 IOS<11.2*/
   // height: calc(96rpx + env(safe-area-inset-bottom)); ///*兼容 IOS>11.2*/
   padding-bottom: constant(safe-area-inset-bottom); ///*兼容 IOS<11.2*/
   padding-bottom: env(safe-area-inset-bottom); ///*兼容 IOS>11.2*/
+}
+
+.safe-area-top {
+  padding-top: constant(safe-area-inset-top); ///*兼容 IOS<11.2*/
+  padding-top: env(safe-area-inset-top); ///*兼容 IOS>11.2*/
 }

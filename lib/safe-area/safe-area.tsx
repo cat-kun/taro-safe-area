@@ -1,6 +1,7 @@
 import React from 'react';
 import { View } from '@tarojs/components';
-import styles from './safe-area.module.less';
+import './safe-area.less';
+import classNames from 'classnames';
 
 interface SafeAreaProps {
   position: 'top' | 'bottom';
@@ -15,10 +16,10 @@ const SafeArea = (props: SafeAreaProps) => {
   return (
     <>
       {props?.position === 'top' && (
-        <View className={styles['safe-area-top safe-area']} />
+        <View className={classNames('safe-area-top', 'safe-area')} />
       )}
       {props?.position === 'bottom' && (
-        <View className={styles['safe-area-bottom safe-area']} />
+        <View className={classNames('safe-area-bottom', 'safe-area')} />
       )}
     </>
   );

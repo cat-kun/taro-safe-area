@@ -1,3 +1,1 @@
-/// <reference types="typescript" />
-declare const SafeArea: () => any;
-export default SafeArea;
+export { default as SafeArea } from './lib/safe-area';

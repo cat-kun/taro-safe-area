@@ -12,7 +12,7 @@ interface SafeAreaProps {
  * @param props 安全区的位置 'top' | 'bottom'
  * @returns
  */
-const SafeArea = (props: SafeAreaProps) => {
+export const SafeArea = (props: SafeAreaProps) => {
   return (
     <>
       {props?.position === 'top' && (
@@ -24,5 +24,3 @@ const SafeArea = (props: SafeAreaProps) => {
     </>
   );
 };
-
-export default SafeArea;

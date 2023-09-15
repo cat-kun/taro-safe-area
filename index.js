@@ -1,2 +1,2 @@
-import SafeArea from './lib/safe-area/safe-area';
+import SafeArea from './src/safe-area';
 export default SafeArea;

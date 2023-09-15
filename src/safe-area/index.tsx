@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from '@tarojs/components';
-import './safe-area.less';
+import './index.less';
 
 /**
  * SafeArea 安全区
